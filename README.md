@@ -1,16 +1,14 @@
 ## Hi there 👋
 
-<!--
-**S4IF-TP/S4IF-TP** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm *Seifeddine GHOZZI*, a Data & AI student at **Institut Polytechnique de Paris / ENSTA Paris**.
 
-Here are some ideas to get you started:
+🎓 Currently studying Data Science and Artificial Intelligence, with a strong interest in machine learning, deeplearning and trustworthy AI.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔬 I completed a research internship at **Inria Saclay**, where I worked on **privacy-enhancing techniques** and **data auditing** in LLMs training process.
+
+🤖 I’m currently exploring **Generative AI** and experimenting with modern models and applications.  
+
+💡 I enjoy turning complex concepts in **machine learning**, **data privacy**, and **AI systems** into practical, impactful solutions.  
+
+
+

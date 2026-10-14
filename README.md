@@ -115,7 +115,7 @@ I'm especially interested in **healthcare** and **industry** applications, and i
 
 **Certifications** · Machine Learning Specialization (Stanford) · Neural Networks and Deep Learning ·
 Exploratory Data Analysis in Python
-**Languages** · Arabic (native) · French (bilingual) · English (B2)
+
 
 ---
 

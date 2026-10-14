@@ -103,8 +103,6 @@ Exploratory Data Analysis in Python
 
 ## 🔭 Currently
 
-- Finishing the evaluation of my text-to-SQL agent: held-out test results, variance over repeated runs and a
-  written failure analysis.
 - Looking for opportunities in **AI / ML engineering**, especially LLM systems, RAG and trustworthy AI.
 
 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/seifeddine-ghozzi/) or at

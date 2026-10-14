@@ -44,24 +44,40 @@ results rather than demos.
 
 ---
 
-## 🚀 Featured project
+## 🚀 Projects
 
 ### 🩺 [Clinical Text-to-SQL Agent](https://github.com/S4IF-TP/Clinical-text-to-SQL-agent)
+*Personal project · Python, LangGraph, PostgreSQL, FastAPI, Streamlit, Docker*
+- Plain-English questions about patient records → **validated, read-only SQL**, the result and a short
+  answer, with the SQL always shown. Runs over 2,000 synthetic patients ([Synthea](https://github.com/synthetichealth/synthea)).
+- **Two independent safety layers:** a `sqlglot` validator and a read-only database role with a timeout;
+  a guard refuses diagnosis / treatment requests; errors and empty results trigger self-correction.
+- **Measured, not claimed:** 90-question benchmark with hand-written gold SQL (60 dev / 30 held-out),
+  execution accuracy for 3 open-weight models. Baselines were already ~88–92% on the dev split, so I report
+  the gain from self-correction as modest and single-run differences as noise.
 
-Ask questions about patient records in plain English and get **validated, read-only SQL**, the result,
-and a short answer — with the SQL always shown so a human can check it.
+### 🧪 [Synthetic Data Generation for RAG Systems](https://github.com/Aziz-Benamira/Synthetic-Data-Generation-for-RAG-Systems)
+*Team project · ENSTA Paris, Agentic AI course 2025 · multi-agent LLM pipeline*
+- A team pipeline that generates high-quality **question–answer pairs from scientific PDFs**, with a
+  multi-agent critic (retry loop, hard rules) and a RAG evaluation suite (Hit@k, MRR, ROUGE-L, BERTScore,
+  LLM-as-judge).
+- **My contribution:** worked across the whole project (pipeline, critic, evaluation) and owned the
+  **multimodal and difficulty** module: image extraction and vision-language captioning for figures, plus a
+  question **difficulty estimator**, question-type classifier and diversity manager to annotate datasets.
 
-| | |
-|---|---|
-| **What** | LangGraph agent over 2,000 synthetic patients ([Synthea](https://github.com/synthetichealth/synthea)) in PostgreSQL |
-| **Safety** | `sqlglot` SQL validator **+** a read-only database role with a 5 s timeout (two independent layers); a guard refuses diagnosis / treatment requests |
-| **Self-correction** | Validation errors, DB errors and empty results are fed back to the model (max 2 retries) |
-| **Evidence** | 90-question benchmark with hand-written gold SQL, 60 dev / 30 held-out; execution accuracy measured for 3 open-weight models |
-| **Stack** | Python · LangGraph · PostgreSQL · FastAPI · Streamlit · Docker · pytest |
+### 🔌 [OpAmp Component Similarity](https://github.com/S4IF-TP/stmicro-component-similarity)
+*Machine learning & deep learning · scikit-learn, LightGBM, PyTorch*
+- Predicts similarity between **operational-amplifier components** from STMicroelectronics
+  cross-reference data, to support component cross-referencing and finding alternative parts.
+- Compared **Random Forest** and **LightGBM Ranker** against an **MLP with categorical embeddings**
+  (supplier-package features) and custom distance metrics; produces similarity matrices and a demo UI.
 
-**What I learned:** baselines were already strong (~88–92% on the dev split), so the honest result is a
-*modest* gain from self-correction, plus a clear list of where models still fail (wrong literal values,
-PostgreSQL date arithmetic). I report single-run differences as noise, not wins.
+### 🏦 [Bank Customer Churn Prediction](https://github.com/S4IF-TP/ML-Bank-customer-churn-prediction)
+*Machine learning · scikit-learn, XGBoost, LightGBM, imbalanced-learn*
+- End-to-end pipeline with statistical feature selection (chi-square), **SMOTE** for class imbalance,
+  hyper-parameter tuning and cross-validation across 7 classifiers, including a voting ensemble.
+- Best model reaches **78% recall** on churners; age, number of products, activity status and geography
+  were the main drivers, translated into retention recommendations.
 
 ---
 

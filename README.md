@@ -55,16 +55,15 @@ I'm especially interested in **healthcare** and **industry** applications, and i
   answer, with the SQL always shown. Runs over 2,000 synthetic patients ([Synthea](https://github.com/synthetichealth/synthea)).
 - **Two independent safety layers:** a `sqlglot` validator and a read-only database role with a timeout;
   a guard refuses diagnosis / treatment requests; errors and empty results trigger self-correction.
-- **Measured, not claimed:** 90-question benchmark with hand-written gold SQL (60 dev / 30 held-out),
-  execution accuracy for 3 open-weight models. Baselines were already ~88–92% on the dev split, so I report
-  the gain from self-correction as modest and single-run differences as noise.
+- **Evaluation:** 90-question benchmark with hand-written gold SQL (60 dev / 30 held-out),
+  execution accuracy for 3 open-weight models. Baselines were already ~88–92% on the dev split.
 
 ### 🧪 [Synthetic Data Generation for RAG Systems](https://github.com/Aziz-Benamira/Synthetic-Data-Generation-for-RAG-Systems)
 *Team project · ENSTA Paris, Agentic AI course 2025 · multi-agent LLM pipeline*
 - A team pipeline that generates high-quality **question–answer pairs from scientific PDFs**, with a
   multi-agent critic (retry loop, hard rules) and a RAG evaluation suite (Hit@k, MRR, ROUGE-L, BERTScore,
   LLM-as-judge).
-- **My contribution:** worked across the whole project (pipeline, critic, evaluation) and owned the
+- **My contribution:** worked across the project (pipeline, critic, evaluation) and owned the
   **multimodal and difficulty** module: image extraction and vision-language captioning for figures, plus a
   question **difficulty estimator**, question-type classifier and diversity manager to annotate datasets.
 

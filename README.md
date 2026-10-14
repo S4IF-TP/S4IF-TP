@@ -19,6 +19,9 @@ I'm an engineer from ENSTA Paris specialised in AI and machine learning, with ex
 correctness can be *checked*: deterministic code around the model, evidence for every claim, and measured
 results rather than demos.
 
+I'm especially interested in **healthcare** and **industry** applications, and in building
+**solutions with a real, useful impact**.
+
 ---
 
 ## 💼 Experience
@@ -40,7 +43,7 @@ results rather than demos.
 
 ## 📄 Publication
 
-**Data Provenance Auditing of Fine-Tuned LLMs with a Text-Preserving Technique** — *ICML 2026* (co-author)
+**[Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique](https://arxiv.org/abs/2510.09655)** — *ICML 2026* (co-author) · [arXiv:2510.09655](https://arxiv.org/abs/2510.09655) · [PDF](https://arxiv.org/pdf/2510.09655)
 
 ---
 
